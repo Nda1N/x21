@@ -129,6 +129,10 @@ body {
         width: 70vmin;
         height: 70vmin;
     }
+    #gifPopup {
+        width: 80%; /* 幅を小さく */
+        height: auto; /* 高さは自動調整 */
+    }
 
     #switchButtons {
         top: 25%;
