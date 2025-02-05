@@ -30,11 +30,7 @@ const gifPaths = {
     ocean4: ['seaturtle_tb.gif', 'seaturtle_t.gif']
 };
 
-window.onload = function() {
-    if (window.innerWidth <= 767) {
-        document.getElementById("gifPopup").style.width = "60%";
-    }
-};
+
 
 
 let isPlaying = false;
