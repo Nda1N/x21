@@ -12,6 +12,13 @@
     z-index: 999;
 }
 
+body {
+    overflow: hidden;  /* スクロール無効化 */
+    margin: 0;         /* マージンをリセット */
+    padding: 0;        /* パディングをリセット */
+}
+
+
 /* タップヒント（右側に移動） */
 #tapHint {
     position: fixed;
@@ -47,7 +54,7 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-53%, -50%);
+    transform: translate(-50%, -50%);
     display: none;
     z-index: 1000;
 }
