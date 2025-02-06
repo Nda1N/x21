@@ -122,37 +122,7 @@ body {
     background-color: blue;
 }
 
-/* メディアクエリでiPhoneとiPadのスタイルを調整 */
 
-/* iPhoneのスタイル（最大幅767px） */
-@media (max-width: 767px) {
-    #markerBoundary {
-        width: 70vmin;
-        height: 70vmin;
-    }
-    #gifPopup {
-        width: 80%; /* 幅を小さく */
-        height: auto; /* 高さは自動調整 */
-    }
-
-    #switchButtons {
-        top: 25%;
-        right: 3%; /* ボタンの位置調整 */
-    }
-}
-
-/* iPadのスタイル（最大幅1024px） */
-@media (max-width: 1024px) {
-    #markerBoundary {
-        width: 65vmin;
-        height: 65vmin;
-    }
-
-    #switchButtons {
-        top: 30%;
-        right: 4%; /* ボタンの位置調整 */
-    }
-}
 
 @keyframes spin {
     0% { transform: rotate(0deg); }
