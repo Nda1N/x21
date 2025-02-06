@@ -57,7 +57,7 @@ body {
     transform: translate(-50%, -50%);
     display: none;
     z-index: 1000;
-     width: 60vw; 
+    
 }
 
 /* ×ボタン（四角に変更） */
@@ -122,6 +122,18 @@ body {
     background-color: blue;
 }
 
+
+@media (max-width: 768px) { /* iPhone向け */
+    #gifPopup {
+        width: 40vw; /* 画面の40%に変更 */
+    }
+}
+
+@media (min-width: 1024px) { /* iPad向け */
+    #gifPopup {
+        width: 60vw; /* 画面の60%に変更 */
+    }
+}
 
 
 @keyframes spin {
